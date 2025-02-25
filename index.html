@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> <!-- Google Font -->
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <iframe class="background-video" src="https://www.youtube.com/embed/n3kpQRFmRC8?autoplay=1&mute=1&loop=1&playlist=n3kpQRFmRC8" frameborder="0" allowfullscreen></iframe>
+    <div class="overlay"></div>
+    <div class="content">
+        <img src="logo.png" alt="Server Logo" class="server-logo"> <!-- Add your logo here -->
+        <h1 class="loading-text">Ładowanie serwera...</h1> <!-- Updated class for loading text -->
+    </div>
+    <audio id="background-music" autoplay loop>
+        <source src="music.mp3" type="audio/mpeg"> <!-- Add your audio file here -->
+        Your browser does not support the audio tag.
+    </audio>
+    <p class="mute-info">Naciśnij spację, aby wyciszyć muzykę.</p> <!-- Barely visible info at the bottom -->
+</body>
+</html>
