@@ -10,13 +10,13 @@ Zanurz swoich graczy w wyjątkowym klimacie już od pierwszych chwil! Nasz loadi
 
 1. **Pobierz resource**: Ściągnij plik ZIP z tego repozytorium.
 
-2. **Rozpakuj plik**: Rozpakuj plik ZIP i skopiuj folder `loading_screen` do katalogu `resources` na swoim serwerze.
+2. **Rozpakuj plik**: Rozpakuj plik ZIP i skopiuj folder `kd_loading` do katalogu `resources` na swoim serwerze.
 
 3. **Dodaj do konfiguracji serwera**:
    - Otwórz plik `server.cfg` w katalogu głównym serwera.
    - Dodaj linię: 
      ```plaintext
-     start loading_screen
+     start kd_loading
      ```
 
 ### Konfiguracja
